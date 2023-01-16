@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #333;
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,12 +70,12 @@ body {
     border-radius: 0;
     height: 4em;
     font-size: 1.2em;
-    background-color: #dbdbdb;
+    background-color: #00BFFF;
     cursor: pointer;
 }
 
 #buttons-container .number {
-    background-color: #f3f3f3;
+    background-color: #87CEFA;
 }
 
 #buttons-container button:hover {
