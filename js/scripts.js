@@ -2,6 +2,12 @@ const previousOperationText = document.querySelector("#previous-operation") //pa
 const currentOperationText = document.querySelector("#current-operation")
 const buttons = document.querySelectorAll("#buttons-container button") //para quando clicar no botao do html, vir pro js executar tambem, por ex, linkar de lá pra cá
 
+
+var nomePessoa = window.prompt('Qual o seu nome?')
+
+alert("Olá, " + nomePessoa + "! " + "Seja bem vindo à minha calculadora.")
+
+
 //logica da calculadora
 class Calculator {
     //usado para especificar as diferenças
